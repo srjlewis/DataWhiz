@@ -159,14 +159,12 @@ Download the latest precompiled executables for CLI and GUI from the [Releases](
 
 ```python
 # 🔐 API endpoint removed to prevent abuse or scraping.
-# 📬 Reach out on X (formerly Twitter): @AnonKryptiQuz (https://x.com/AnonKryptiQuz) for access or download the precompiled binary to bypass API restrictions.
+# 📬 Download the precompiled binary to bypass API restrictions.
 
-_cr_u = API_ENDPOINT = "REDACTED_FOR_PUBLIC_RELEASE_CONTACT_X_@AnonKryptiQuz"
+_cr_u = API_ENDPOINT = "DOWNLOAD_THE_PRECOMPILED_BINARY_TO_PREVENT_API_RESTRICTIONS"
 ```
 
-> * In order for the tool to function correctly when running the source code version, you must **manually replace the `_cr_u` variable above with the actual API URL**.
-> * To obtain the API, please contact [@AnonKryptiQuz](https://x.com/AnonKryptiQuz). **The API will be provided free of cost**
-> * Alternatively, you may [download the precompiled PyInstaller binary](https://github.com/0nsec/DataWhiz/releases), which includes the API and bypasses this restriction.
+> * In order for the tool to function correctly, you may [download the precompiled PyInstaller binary](https://github.com/0nsec/DataWhiz/releases), which includes the API and bypasses this restriction.
 
 ## **Build Your Own Precompiled Binary**
 
@@ -248,7 +246,7 @@ Ensure `python3-tk` and `libxcb1` are installed [see GUI Prerequisites](#gui-pre
 
 This tool was developed in response to frequent requests from OSINT researchers and cybersecurity professionals seeking mobile and identity data access within the South Asian region.
 
-Interested in support for other regions? Feel free to reach out on X (formerly Twitter): [@AnonKryptiQuz](https://x.com/AnonKryptiQuz).
+Interested in support for other regions? Feel free to reach out on X (formerly Twitter): [@0nsec_0](https://x.com/0nsec_0).
 
 Report an issue or want to suggest a feature? [Open an issue](https://github.com/0nsec/DataWhiz/issues)
 
