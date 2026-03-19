@@ -264,9 +264,9 @@ def fetch_and_parse_page(query_value, session, update_callback, current_mode):
             return raw_output_buffer
     except requests.exceptions.MissingSchema:
         update_callback(f"[!] API endpoint removed to prevent abuse or scraping.\n", append=True, color="cyan")
-        update_callback(f"[i] Reach out on X (formerly Twitter): @AnonKryptiQuz for access.\n", append=True, color="cyan")
+        update_callback(f"[i] Please download the precompiled binary to bypass API restrictions.\n", append=True, color="cyan")
         raw_output_buffer += f"{Fore.CYAN}[!] API endpoint removed to prevent abuse or scraping.{Style.RESET_ALL}\n"
-        raw_output_buffer += f"{Fore.CYAN}[i] Reach out on X (formerly Twitter): @AnonKryptiQuz for access or download the precompiled binary to bypass API restrictions.{Style.RESET_ALL}\n"
+        raw_output_buffer += f"{Fore.CYAN}[i] Please download the precompiled binary to bypass API restrictions.{Style.RESET_ALL}\n"
 
         return raw_output_buffer
     except requests.exceptions.RequestException as e:
