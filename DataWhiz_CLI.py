@@ -16,9 +16,9 @@ import re
 init(autoreset=True)
 
 # 🔐 API endpoint removed to prevent abuse or scraping.
-# 📬 Reach out on X (formerly Twitter): @AnonKryptiQuz for access or download the precompiled binary to bypass API restrictions.
+# 📬 Download the precompiled binary to bypass API restrictions.
 
-_cr_u = API_ENDPOINT = "REDACTED_FOR_PUBLIC_RELEASE_CONTACT_X_@AnonKryptiQuz"
+_cr_u = API_ENDPOINT = "DOWNLOAD_THE_PRECOMPILED_BINARY_TO_PREVENT_API_RESTRICTIONS"
 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
