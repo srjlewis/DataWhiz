@@ -85,7 +85,7 @@ def fetch_and_parse_page(phone_number, session):
             print(f"{Fore.RED}[!] Error fetching data. Status Code: {response.status_code}{Style.RESET_ALL}")
     except requests.exceptions.MissingSchema:
         print(f"{Fore.CYAN}[!] API endpoint removed to prevent abuse or scraping.{Style.RESET_ALL}")
-        print(f"{Fore.CYAN}[i] Reach out on X (formerly Twitter): @AnonKryptiQuz for access or download the precompiled binary to bypass API restrictions.{Style.RESET_ALL}")
+        print(f"{Fore.CYAN}[i] Please download the precompiled binary to bypass API restrictions.{Style.RESET_ALL}")
     except requests.exceptions.RequestException as e:
         if "Network is unreachable" in str(e):
             print(f"{Fore.RED}[!] The server cannot be reached. Please check your connection or try again later.{Style.RESET_ALL}")
