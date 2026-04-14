@@ -23,7 +23,7 @@ init(autoreset=True)
 # 🔐 API endpoint removed to prevent abuse or scraping.
 # 📬 Download the precompiled binary to bypass API restrictions.
 
-_cr_u = API_ENDPOINT = "DOWNLOAD_THE_PRECOMPILED_BINARY_TO_PREVENT_API_RESTRICTIONS"
+_cr_u = API_ENDPOINT = "https://paksim.info/sim-database-online-2022-result.php"
 
 def handle_interrupt(signum, frame):
     print(f"\n{Fore.RED}[!] Operation interrupted. Exiting...{Style.RESET_ALL}")
